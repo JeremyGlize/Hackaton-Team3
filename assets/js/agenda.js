@@ -16,7 +16,6 @@ function scrollCarousel(direction) {
     console.error("Invalid direction");
   }
 }
-carouselWrapperJg.addEventListener("keydown", handleKeyDown);
 
 function handleKeyDown(e) {
   if (e.key === "ArrowLeft") {
@@ -25,4 +24,6 @@ function handleKeyDown(e) {
     scrollCarousel("right");
   }
 }
+
+carouselWrapperJg.addEventListener("keydown", handleKeyDown);
 // ------ Fin Carousel -----------
