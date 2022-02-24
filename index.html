@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/header_footer.css" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
-
     <meta
       name="description"
       content="L’idée qui a conduit à la création de L’Escale Tiers Lieu est d’abord d’offrir un espace de travail individuel et collectif. Mais s’ajoute à cela trois autres volontés : En faire un lieu d’échanges autour de la culture et du bien-être, ainsi que d’adopter et promouvoir une démarche écocitoyenne…"
@@ -15,6 +14,7 @@
     <title>L'Escale Tiers Lieu - L'espace de coworking collaboratif</title>
   </head>
   <body>
+    <!--header-->
     <header>
       <nav class="CDnavHeader">
         <img class="CDlogo" src="assets/img/logo.png" alt="logo de mongolfière, association l'escale" />
@@ -28,41 +28,43 @@
             <a href="index.html">ACCUEIL</a>
           </li>
           <li>
-            <a href="#">NOS LOCAUX</a>
+            <a href="info.html">NOS LOCAUX</a>
           </li>
           <li>
-            <a href="#">ADHERENTS</a>
+            <a href="connexion.html">ADHERENTS</a>
           </li>
           <li  id="CDlinkMembers" class="CDnone">
-            <a href="#">NOS MEMBRES</a>
+            <a href="members.html">NOS MEMBRES</a>
           </li>
           <li  id="CDlinkBecome" class="CDnone">
-            <a href="#">DEVENIR ADHERENT</a>
+            <a href="adhesion.html">DEVENIR ADHERENT</a>
           </li>
           <li>
             <a href="agenda.html">EVENEMENTS</a>
           </li>
           <li>
-            <a href="#">CONTACTS</a>
+            <a href="contact.html">CONTACTS</a>
           </li>
           <li class="CDlistRS">
-            <a href="#"
+            <a href="https://www.linkedin.com/company/l-escale-tiers-lieu"
               ><img class="CDiconRS" src="assets/img/linkedin.png" alt="logo linkedin bleu"
             /></a>
-            <a href="#"
+            <a href="https://www.instagram.com/escale.tierslieu/"
               ><img class="CDiconRS" src="assets/img/instagram.png" alt="logo instagram bleu"
             /></a>
-            <a href="#"
+            <a href="https://www.facebook.com/escale.tierslieu/"
               ><img class="CDiconRS" src="assets/img/facebook.png" alt="logo facebook bleu"
             /></a>
           </li>
         </ul>
-        <a href="#">
+        <a href="connexion.html">
           <img class="CDiconUser" src="assets/img/user.png" alt="avatar de la personne connectée" />
         </a>
       </nav>
     </header>
+    <!--main-->
     <main>
+      <!--section carroussel-->
       <section class="CDsectionCarroussel">
         <div class="CDcarousel__wrapper">
           <button class="CDcarousel__button CDcarousel__button--left">
@@ -105,6 +107,7 @@
           </div>
         </div>
       </section>
+      <!--section présentation-->
       <section id="CDtextPresentation" class="CDsectionWidth">
         <h2 class="CDtitlePresentationDeskstop">PRESENTATION</h2>
         <div class="CDtextPresentationDeskstop">
@@ -127,6 +130,7 @@
             escale.tierslieu@gmail.com</span>   
           </div>
       </section>
+      <!--section locaux-->
       <section id="CDsectionRoom" class="CDsectionWidth">
         <h2>NOS LOCAUX</h2>
         <div>
@@ -151,7 +155,7 @@
                 </div>
               </div>
               <div>
-                <a class="CDlinkRoom" href="#">
+                <a class="CDlinkRoom" href="info.html">
                   <span class="CDarrowText">Voir</span>
                   <img
                     class="CDarrow CDarrowMobile"
@@ -190,7 +194,7 @@
                 </div>
               </div>
               <div>
-                <a class="CDlinkRoom" href="#">
+                <a class="CDlinkRoom" href="info.html">
                   <span class="CDarrowText">Voir</span>
                   <img
                     class="CDarrow CDarrowMobile"
@@ -227,7 +231,7 @@
                 </div>
               </div>
               <div>
-                <a class="CDlinkRoom" href="#">
+                <a class="CDlinkRoom" href="info.html">
                   <span class="CDarrowText">Voir</span>
                   <img
                     class="CDarrow CDarrowMobile"
@@ -267,7 +271,7 @@
                 </div>
               </div>
               <div>
-                <a class="CDlinkRoom" href="#">
+                <a class="CDlinkRoom" href="info.html">
                   <span class="CDarrowText">Voir</span>
                   <img
                     class="CDarrow CDarrowMobile"
@@ -302,7 +306,7 @@
                 </div>
               </div>
               <div>
-                <a class="CDlinkRoom" href="#">
+                <a class="CDlinkRoom" href="info.html">
                   <span class="CDarrowText">Voir</span>
                   <img
                     class="CDarrow CDarrowMobile"
@@ -320,6 +324,7 @@
           </article>
         </div>
       </section>
+      <!--section adhérents-->
       <section id="CDsectionAdh" class="CDsectionAdh">
         <h2 class="CDtitleAdh">NOS ADHERENTS</h2>
         <span>Ils nous ont fait confiance</span>
@@ -327,14 +332,15 @@
           <img src="assets/img/mongolfiereHomePage.png" alt="image d'une mongolfière constituée de morceaux de puzzle avec un imprimé des adhérents sur les pièces de puzzle" />
         </div>
         <div class="CDadhBtn">
-          <a class="CDlinkBtnDiscover" href="#">
+          <a class="CDlinkBtnDiscover" href="members.html">
             <button class="CDbtnDiscover">Découvrir</button>
           </a>
-          <a href="#">
+          <a href="adhesion.html">
             <button class="CDbtnSignIn">S'inscrire</button>
           </a>
         </div>
       </section>
+      <!--section événements-->
       <section id="CDsectionEvent" class="CDsectionEvent">
         <h2>LES EVENEMENTS DU MOIS</h2>
         <div>
@@ -365,10 +371,11 @@
           </article>
         </div>
         <img class="CDplante" src="assets/img/planteEventHomePage.svg" alt="image d'une sinusoide verte avec des points colorés dessus a des distances equidistantes">
-        <a href="#">
+        <a href="info.html">
           <button class="CDbtnSignIn">CONSULTER LES SALLES</button>
         </a>
       </section>
+      <!--section contacts-->
       <section class="CDsectionContact CDsectionWidth">
         <h2>CONTACTS</h2>
         <span
@@ -376,10 +383,11 @@
           de type coworking qui peut accueillir tous types de travailleurs
           (indépendants, télétravailleurs, salariés, centre de formation …).
         </span>
-        <a href="#">
+        <a href="connexion.html">
           <button class="CDbtnSignIn">Voir</button>
         </a>
       </section>
+      <!--section partenaires-->
       <section class="CDsectionPartners">
         <h2>Nos partenaires</h2>
         <div>
@@ -416,6 +424,7 @@
         </div>
       </section>
     </main>
+    <!--footer-->
     <footer>
       <nav>
         <div class="CDleftFooter">
@@ -434,29 +443,30 @@
               <span>+33 (0)5 57 09 11 40</span>
             </div>
           </div>
-          <a class="CDfooterLinkRS" href="#">
+          <a class="CDfooterLinkRS" href="https://www.linkedin.com/company/l-escale-tiers-lieu">
             <img class="CDiconRS" src="assets/img/linkedin.png" alt="icone bleu linkedin" />
           </a>
-          <a class="CDfooterLinkRS" href="#">
+          <a class="CDfooterLinkRS" href="https://www.instagram.com/escale.tierslieu/">
             <img class="CDiconRS" src="assets/img/instagram.png" alt="icone bleu instagram" />
           </a>
-          <a class="CDfooterLinkRS" href="#">
+          <a class="CDfooterLinkRS" href="https://www.facebook.com/escale.tierslieu/">
             <img class="CDiconRS" src="assets/img/facebook.png" alt="icone bleu facebook" />
           </a>
         </div>
         <div class="CDfooterCGU">
           <div>
-            <a href="#">Contactez nous</a>
+            <a href="connexion.html">Contactez nous</a>
           </div>
           <div>
-            <a href="#">C.G.U</a>
+            <a href="https://www.locomotiv.com/politique-de-confidentialite/">C.G.U</a>
           </div>
           <div>
-            <a href="#">Mentions Légales</a>
+            <a href="https://www.locomotiv.com/mentions-legales/">Mentions Légales</a>
           </div>
         </div>
       </nav>
     </footer>
+    <!--script js-->
     <script src="assets/js/CDburger.js"></script>
     <script src="assets/js/index.js"></script>
   </body>
