@@ -298,9 +298,9 @@ img {
   }
   .flexAgendaJg {
     background-image: url(../img/planteEvent.svg);
-    background-position: center;
+    background-position: 54%;
     background-repeat: no-repeat;
-    background-size: 80vh;
+    background-size: 88vh;
   }
 
   .monthEventJg {
