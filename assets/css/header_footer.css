@@ -8,6 +8,7 @@ body{
 }
 span{
     font-family: "Libre Franklin";
+    color: #499ec0;
 }
 a{
     text-decoration: none;
@@ -68,11 +69,13 @@ li{
   display: flex;
   height: 166px;
   justify-content: space-evenly;
+  width: 700px;
 }
 .CDlogoText{
   display: flex;
   width:250px;
   justify-content:space-evenly;
+  width: 400px;
 }
 .CDspanFooter{
   width:215px;
